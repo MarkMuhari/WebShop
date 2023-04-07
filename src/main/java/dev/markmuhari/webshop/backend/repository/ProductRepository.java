@@ -1,0 +1,9 @@
+package dev.markmuhari.webshop.backend.repository;
+
+import dev.markmuhari.webshop.backend.model.Product;
+import org.springframework.data.jpa.repository.JpaRepository;
+import org.springframework.stereotype.Repository;
+
+@Repository
+public interface ProductRepository extends JpaRepository<Product, Long> {
+}
