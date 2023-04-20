@@ -41,7 +41,7 @@ export class ProductListComponent implements OnInit {
     const hasCategoryId: boolean = this.route.snapshot.paramMap.has('id');
 
     if (hasCategoryId) {
-      // get the "id" param string, convert string to number using the "+" symbol
+      // get the "id" param string, convert string to number
       this.currentCategoryId = Number(this.route.snapshot.paramMap.get('id'));
     }
     else {
@@ -69,3 +69,4 @@ export class ProductListComponent implements OnInit {
     )
   }
 }
+
