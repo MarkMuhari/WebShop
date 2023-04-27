@@ -8,6 +8,8 @@ import { ProductService } from 'src/app/services/product.service';
   templateUrl: './product-details.component.html',
   styleUrls: ['./product-details.component.css']
 })
+
+
 export class ProductDetailsComponent {
 
   product: Product = new Product();
